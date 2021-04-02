@@ -63,6 +63,7 @@ public class LocalDatastoreHelper extends BaseEmulatorHelper<DatastoreOptions> {
   private static final String MD5_CHECKSUM = "ec2237a0f0ac54964c6bd95e12c73720";
   private static final String BIN_CMD_PORT_FLAG = "--port=";
   private static final URL EMULATOR_URL;
+  private static final String EMULATOR_URL_ENV_VAR = "DATASTORE_EMULATOR_URL";
 
   // Common settings
   private static final String CONSISTENCY_FLAG = "--consistency=";
@@ -72,7 +73,11 @@ public class LocalDatastoreHelper extends BaseEmulatorHelper<DatastoreOptions> {
 
   static {
     try {
-      EMULATOR_URL = new URL("http://storage.googleapis.com/gcd/tools/" + FILENAME);
+      if (System.getenv(EMULATOR_URL_ENV_VAR).isEmpty()) {
+        EMULATOR_URL = new URL("http://storage.googleapis.com/gcd/tools/" + FILENAME);
+      } else {
+        EMULATOR_URL = new URL(System.getenv(EMULATOR_URL_ENV_VAR));
+      }
     } catch (MalformedURLException ex) {
       throw new IllegalStateException(ex);
     }
