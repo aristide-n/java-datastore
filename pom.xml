@@ -4,7 +4,7 @@
   <groupId>com.google.cloud</groupId>
   <artifactId>google-cloud-datastore-parent</artifactId>
   <packaging>pom</packaging>
-  <version>1.106.1-SNAPSHOT</version><!-- {x-version-update:google-cloud-datastore-parent:current} -->
+  <version>1.107.2-SNAPSHOT</version><!-- {x-version-update:google-cloud-datastore-parent:current} -->
   <name>Google Cloud Datastore Parent</name>
   <url>https://github.com/googleapis/java-datastore</url>
   <description>
@@ -14,7 +14,7 @@
   <parent>
     <groupId>com.google.cloud</groupId>
     <artifactId>google-cloud-shared-config</artifactId>
-    <version>0.11.0</version>
+    <version>1.0.0</version>
   </parent>
 
   <developers>
@@ -129,16 +129,7 @@
     <url>https://github.com/googleapis/java-datastore/issues</url>
     <system>GitHub Issues</system>
   </issueManagement>
-  <distributionManagement>
-    <snapshotRepository>
-      <id>sonatype-nexus-snapshots</id>
-      <url>https://oss.sonatype.org/content/repositories/snapshots</url>
-    </snapshotRepository>
-    <repository>
-      <id>sonatype-nexus-staging</id>
-      <url>https://oss.sonatype.org/service/local/staging/deploy/maven2/</url>
-    </repository>
-  </distributionManagement>
+  
   <licenses>
     <license>
       <name>Apache-2.0</name>
@@ -159,7 +150,7 @@
       <dependency>
         <groupId>com.google.cloud</groupId>
         <artifactId>google-cloud-shared-dependencies</artifactId>
-        <version>0.20.1</version>
+        <version>2.0.0</version>
         <type>pom</type>
         <scope>import</scope>
       </dependency>
@@ -167,12 +158,12 @@
       <dependency>
         <groupId>com.google.api.grpc</groupId>
         <artifactId>proto-google-cloud-datastore-v1</artifactId>
-        <version>0.89.1-SNAPSHOT</version><!-- {x-version-update:proto-google-cloud-datastore-v1:current} -->
+        <version>0.90.2-SNAPSHOT</version><!-- {x-version-update:proto-google-cloud-datastore-v1:current} -->
       </dependency>
       <dependency>
         <groupId>com.google.cloud.datastore</groupId>
         <artifactId>datastore-v1-proto-client</artifactId>
-        <version>1.6.3</version>
+        <version>1.7.2-SNAPSHOT</version><!-- {x-version-update:datastore-v1-proto-client:current} -->
         <exclusions>
           <exclusion>
             <groupId>com.google.api.grpc</groupId>
@@ -183,7 +174,7 @@
       <dependency>
         <groupId>com.google.oauth-client</groupId>
         <artifactId>google-oauth-client</artifactId>
-        <version>1.31.4</version>
+        <version>1.31.5</version>
       </dependency>
       <!-- Test dependencies -->
       <dependency>
@@ -227,6 +218,7 @@
   </build>
 
   <modules>
+    <module>datastore-v1-proto-client</module>
     <module>proto-google-cloud-datastore-v1</module>
     <module>google-cloud-datastore</module>
     <module>google-cloud-datastore-bom</module>

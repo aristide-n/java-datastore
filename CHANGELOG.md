@@ -1,5 +1,76 @@
 # Changelog
 
+### [1.107.1](https://www.github.com/googleapis/java-datastore/compare/v1.107.0...v1.107.1) (2021-06-30)
+
+
+### Bug Fixes
+
+* Add `shopt -s nullglob` to dependencies script ([#461](https://www.github.com/googleapis/java-datastore/issues/461)) ([147a3e5](https://www.github.com/googleapis/java-datastore/commit/147a3e5a80b2597258c4b78ae54d4be5d45b4df1))
+
+
+### Dependencies
+
+* update dependency com.google.cloud:google-cloud-shared-dependencies to v1.4.0 ([#465](https://www.github.com/googleapis/java-datastore/issues/465)) ([9a83695](https://www.github.com/googleapis/java-datastore/commit/9a83695cd5913096dc3d810c385d62c579bd7ace))
+
+## [1.107.0](https://www.github.com/googleapis/java-datastore/compare/v1.106.5...v1.107.0) (2021-06-16)
+
+
+### Features
+
+* add `gcf-owl-bot[bot]` to `ignoreAuthors` ([#433](https://www.github.com/googleapis/java-datastore/issues/433)) ([a8bc795](https://www.github.com/googleapis/java-datastore/commit/a8bc7957719c10a323eba17a68137476de068c5d))
+
+
+### Bug Fixes
+
+* Update dependencies.sh to not break on mac ([#456](https://www.github.com/googleapis/java-datastore/issues/456)) ([1e514c0](https://www.github.com/googleapis/java-datastore/commit/1e514c00c4f0f3735295330b255c52eb61af72aa))
+
+
+### Dependencies
+
+* update dependency com.google.cloud:google-cloud-shared-dependencies to v1.3.0 ([#451](https://www.github.com/googleapis/java-datastore/issues/451)) ([00ca1a6](https://www.github.com/googleapis/java-datastore/commit/00ca1a680f744ea3c5855136b79ba6de384583ed))
+
+### [1.106.5](https://www.github.com/googleapis/java-datastore/compare/v1.106.4...v1.106.5) (2021-05-19)
+
+
+### Dependencies
+
+* update dependency com.google.cloud:google-cloud-shared-dependencies to v1.2.0 ([#430](https://www.github.com/googleapis/java-datastore/issues/430)) ([86c4dfe](https://www.github.com/googleapis/java-datastore/commit/86c4dfe1a9ae4fdcf1b788281be0f57d14c6d353))
+
+### [1.106.4](https://www.github.com/googleapis/java-datastore/compare/v1.106.3...v1.106.4) (2021-05-11)
+
+
+### Dependencies
+
+* update dependency com.google.cloud:google-cloud-shared-dependencies to v1.1.0 ([#417](https://www.github.com/googleapis/java-datastore/issues/417)) ([0ecddb2](https://www.github.com/googleapis/java-datastore/commit/0ecddb25c43569e3b50e96ceec102bec52bad7d6))
+
+### [1.106.3](https://www.github.com/googleapis/java-datastore/compare/v1.106.2...v1.106.3) (2021-04-23)
+
+
+### Dependencies
+
+* update dependency com.google.cloud:google-cloud-shared-dependencies to v1 ([#404](https://www.github.com/googleapis/java-datastore/issues/404)) ([c168760](https://www.github.com/googleapis/java-datastore/commit/c168760909dbfb5d2d6ad176a4822e9a7dcc1d47))
+
+### [1.106.2](https://www.github.com/googleapis/java-datastore/compare/v1.106.1...v1.106.2) (2021-04-20)
+
+
+### Bug Fixes
+
+* release scripts from issuing overlapping phases ([#394](https://www.github.com/googleapis/java-datastore/issues/394)) ([397ae6c](https://www.github.com/googleapis/java-datastore/commit/397ae6cdbf2effa926d0a4503148970ee7e5d8cf))
+* typo ([#389](https://www.github.com/googleapis/java-datastore/issues/389)) ([10b0336](https://www.github.com/googleapis/java-datastore/commit/10b03365c227d7b6f15ba60eb946079a3f70b729))
+
+
+### Dependencies
+
+* update dependency com.google.cloud:google-cloud-shared-dependencies to v0.21.1 ([#397](https://www.github.com/googleapis/java-datastore/issues/397)) ([947befe](https://www.github.com/googleapis/java-datastore/commit/947befed8e074c244cb68099ed5e9a6ad0721caf))
+
+### [1.106.1](https://www.github.com/googleapis/java-datastore/compare/v1.106.0...v1.106.1) (2021-04-12)
+
+
+### Dependencies
+
+* update dependency com.google.cloud:google-cloud-shared-dependencies to v0.21.0 ([#380](https://www.github.com/googleapis/java-datastore/issues/380)) ([7577e1b](https://www.github.com/googleapis/java-datastore/commit/7577e1b1cb1af0539fc931059fbb48ee5e934447))
+* update dependency com.google.oauth-client:google-oauth-client to v1.31.5 ([#379](https://www.github.com/googleapis/java-datastore/issues/379)) ([917719c](https://www.github.com/googleapis/java-datastore/commit/917719cb36d4d55b586b6fde7a0e0950a26cd233))
+
 ## [1.106.0](https://www.github.com/googleapis/java-datastore/compare/v1.105.9...v1.106.0) (2021-03-11)
 
 
