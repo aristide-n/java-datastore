@@ -1,0 +1,12 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<metadata>
+  <groupId>com.google.cloud</groupId>
+  <artifactId>google-cloud-core</artifactId>
+  <versioning>
+    <release>2.0.3-SNAPSHOT-LOCAL</release>
+    <versions>
+      <version>2.0.3-SNAPSHOT-LOCAL</version>
+    </versions>
+    <lastUpdated>20210809020916</lastUpdated>
+  </versioning>
+</metadata>
